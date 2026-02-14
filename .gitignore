@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Data folders (vector DB + uploads)
+data/
+*.faiss
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Testing cache
+.pytest_cache/
+
+# Build
+build/
+dist/
